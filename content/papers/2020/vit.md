@@ -95,7 +95,7 @@ tags:
   - **[[papers/2021/mae]]** — マスク画像モデリングで self-supervised 事前学習。ViT のデータ依存を self-supervised で解消。
   - **Swin Transformer (Liu et al., 2021)** — 階層構造と window attention。高解像度対応。
   - **DINO (Caron et al., 2021) → [[papers/2023/dinov2|DINOv2]]** — self-distillation ベースの SSL。現在の視覚基盤モデルの主流。
-  - **CLIP (Radford et al., 2021)** — ViT + contrastive text-image pretraining。VLM の原点。
+  - **[[papers/2021/clip]]** — ViT + contrastive text-image pretraining。VLM の原点。
   - **[[papers/2024/dinov2-registers|Vision Transformers Need Registers]]** — ViT の attention artefact を発見・解決。本論文の欠点の一つを埋めた。
 - 競合・対抗:
   - ConvNeXt (Liu et al., 2022) — 「ResNet を ViT 並みに磨けば勝てる」という反証。**FIT2025 の比較対象**。

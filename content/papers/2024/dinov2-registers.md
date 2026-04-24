@@ -85,7 +85,7 @@ tags:
 
 - 直接の前身:
   - [[papers/2023/dinov2]] — artifact が最も強く観察された対象。本論文は DINOv2 v1 の実用改良版の位置付け。
-  - CLIP (Radford et al., 2021), DeiT-III — artifact を共有する対象として分析。
+  - [[papers/2021/clip]], DeiT-III — artifact を共有する対象として分析。
 - 同時期・関連:
   - Attention sink (Xiao et al., 2023, LLM 側) — LLM で同じく「高ノルム無意味トークン」が出現する現象。横の並びで面白い。
   - Dense Prediction Transformers (Ranftl et al., 2021) — patch token の質が効くタスクの代表。

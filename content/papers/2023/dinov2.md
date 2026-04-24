@@ -75,7 +75,7 @@ tags:
   - DINO (Caron et al., 2021) — student-teacher / self-distillation の original。
   - iBOT (Zhou et al., 2022) — masked image modeling を DINO に統合。
 - 同時期・比較対象:
-  - CLIP / OpenCLIP — 弱教師あり基盤モデル。dense タスクでは劣勢。
+  - [[papers/2021/clip]] / OpenCLIP — 弱教師あり基盤モデル。dense タスクでは劣勢だが zero-shot で強い。
   - [[papers/2021/mae]] — reconstruction 型 SSL。DINOv2 は iBOT で MAE 的な MIM を DINO と融合。
 - 後続:
   - [[papers/2024/dinov2-registers]] — attention の artefact を register token で解消。dense task と解釈性が改善。
