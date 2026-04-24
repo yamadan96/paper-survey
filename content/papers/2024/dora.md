@@ -131,4 +131,4 @@ $$
 → 次に読む:
 - LoftQ — QLoRA の量子化誤差を LoRA 初期化で相殺。QDoRA と組むと相補的。
 - LoRA+ — 学習率の非対称性。DoRA と直交的に併用可能。
-- [[papers/2024/dinov2-registers]] (未作成) — DINOv2 attention artefact 解消。高解像度タスクでの実装課題。
+- [[papers/2024/dinov2-registers]] — DINOv2 attention artefact 解消。高解像度タスクでの実装課題（読了）。

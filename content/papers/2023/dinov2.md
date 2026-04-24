@@ -77,7 +77,7 @@ tags:
   - CLIP / OpenCLIP — 弱教師あり基盤モデル。dense タスクでは劣勢。
   - MAE (He et al., 2022) — reconstruction 型 SSL。
 - 後続:
-  - DINOv2 + Registers (Darcet et al., 2024) — attention の artefact を解消。
+  - [[papers/2024/dinov2-registers]] — attention の artefact を register token で解消。dense task と解釈性が改善。
   - [[papers/2024/dora]] — DINOv2 backbone と組むと低 rank で有利。DoRA のほうがタスクによっては LoRA を上回る。
   - SAM 2, Depth Anything 系は DINOv2 を backbone として活用。
 
@@ -94,6 +94,6 @@ tags:
 4. **実装メモ**: `facebookresearch/dinov2` の `hubconf.py` から `dinov2_vits14 / vitb14 / vitl14 / vitg14` がロード可能。PEFT の LoRA と組むのは素直。GPU メモリ制約では ViT-S/14 + LoRA から始めるのが無難。
 
 → 次に読む:
-- [[papers/2024/dinov2-registers]] (未作成) — artefact 解消版。
+- [[papers/2024/dinov2-registers]] — artefact 解消版（読了）。
 - [[papers/2021/lora]] — PEFT 本体の再確認。DINOv2 backbone と組んで少数データ適合に使う。
 - [[papers/2022/ibot]] (未作成) — iBOT 単体の挙動理解。
