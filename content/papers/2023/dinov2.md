@@ -76,7 +76,7 @@ tags:
   - iBOT (Zhou et al., 2022) — masked image modeling を DINO に統合。
 - 同時期・比較対象:
   - CLIP / OpenCLIP — 弱教師あり基盤モデル。dense タスクでは劣勢。
-  - MAE (He et al., 2022) — reconstruction 型 SSL。
+  - [[papers/2021/mae]] — reconstruction 型 SSL。DINOv2 は iBOT で MAE 的な MIM を DINO と融合。
 - 後続:
   - [[papers/2024/dinov2-registers]] — attention の artefact を register token で解消。dense task と解釈性が改善。
   - [[papers/2024/dora]] — DINOv2 backbone と組むと低 rank で有利。DoRA のほうがタスクによっては LoRA を上回る。

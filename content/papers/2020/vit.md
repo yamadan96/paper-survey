@@ -92,7 +92,7 @@ tags:
   - Non-local Neural Networks (Wang et al., 2018) — attention を CNN に混ぜる試み。ViT はこれを「混ぜる」ではなく「全部 attention」で解決。
 - 後続:
   - **DeiT (Touvron et al., 2021)** — ImageNet-1k のみで ViT を訓練可能にする蒸留手法。データ飢餓の緩和。
-  - **MAE (He et al., 2022)** — マスク画像モデリングで self-supervised 事前学習。ViT のデータ依存を self-supervised で解消。
+  - **[[papers/2021/mae]]** — マスク画像モデリングで self-supervised 事前学習。ViT のデータ依存を self-supervised で解消。
   - **Swin Transformer (Liu et al., 2021)** — 階層構造と window attention。高解像度対応。
   - **DINO (Caron et al., 2021) → [[papers/2023/dinov2|DINOv2]]** — self-distillation ベースの SSL。現在の視覚基盤モデルの主流。
   - **CLIP (Radford et al., 2021)** — ViT + contrastive text-image pretraining。VLM の原点。
@@ -127,5 +127,5 @@ tags:
 
 → 次に読む:
 - DeiT (Touvron et al., 2021) — 小規模データで ViT を訓練する蒸留手法。
-- MAE (He et al., 2022) — self-supervised pretraining で ViT のデータ飢餓を解消。
+- [[papers/2021/mae]] — self-supervised pretraining で ViT のデータ飢餓を解消（読了）。
 - ConvNeXt (Liu et al., 2022) — CNN を ViT に近づけた反証。FIT2025 比較対象の本尊。
