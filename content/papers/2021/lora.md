@@ -95,7 +95,7 @@ $$
   - Prefix Tuning (Li & Liang, 2021) — 入力側に学習可能 prefix を挿入。
   - BitFit (Zaken et al., 2021) — bias のみ学習。ミニマル PEFT。
 - 同時期・発展:
-  - [[papers/2023/qlora]] (未作成) — 4bit 量子化 base + LoRA。単一 GPU で 65B FT。
+  - [[papers/2023/qlora]] — 4bit 量子化 base + LoRA。単一 GPU で 65B FT。
   - [[papers/2024/dora]] (未作成) — 重みを magnitude × direction に分解して LoRA より表現力を拡張。
   - VeRA, LoRA+, LongLoRA など。
 - Vision / 基盤モデル応用:
@@ -121,6 +121,6 @@ $$
    - VRAM 制約がきつい環境（研究室の共有 GPU など）では QLoRA で 4bit 化した DINOv2 + LoRA を検証する価値がある。DoRA は rank を絞れる場合の性能向上が報告されており、rank 不足時の保険として良さそう。
 
 → 次に読む:
-- [[papers/2023/qlora]] — 量子化との組み合わせ。研究室 GPU 制約で必須級。
+- [[papers/2023/qlora]] — 量子化との組み合わせ。研究室 GPU 制約で必須級（読了）。
 - [[papers/2024/dora]] — LoRA の表現力拡張。rank を絞りたい場面で。
 - [[papers/2019/adapters]] — Adapter 本体。LoRA との設計思想比較。
