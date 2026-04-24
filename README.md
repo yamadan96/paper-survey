@@ -1,47 +1,46 @@
 # paper-survey
 
-Personal paper survey notes, published with [Quartz v4](https://quartz.jzhao.xyz/).
+論文サーベイの個人ノート。[Quartz v4](https://quartz.jzhao.xyz/) で生成して GitHub Pages に公開している。
 
-**Live site:** https://yamadan96.github.io/paper-survey/
+**公開サイト**: https://yamadan96.github.io/paper-survey/
 
-## Layout
+## ディレクトリ構成
 
 ```
 content/
-├── index.md                      # landing page
+├── index.md                      # ランディングページ
 ├── papers/
-│   └── YYYY/<slug>.md            # one note per paper
-├── topics/                       # cross-paper theme pages
-└── templates/paper_template.md   # copy this to start a new paper note
+│   └── YYYY/<slug>.md            # 1 論文 1 ノート
+├── topics/                       # 分野横断のテーマページ
+└── templates/paper_template.md   # 新規ノート用テンプレート
 ```
 
-## Local development
+## ローカルでプレビュー
 
 ```bash
-npm install           # first time only
-npx quartz build --serve
+npm install              # 初回のみ
+npx quartz build --serve # http://localhost:8080
 ```
 
-Serves at `http://localhost:8080`.
-
-## Adding a paper
+## 論文ノートを追加する
 
 ```bash
-cp content/templates/paper_template.md content/papers/2026/my-slug.md
-$EDITOR content/papers/2026/my-slug.md
-git add content/papers/2026/my-slug.md
-git commit -m "add: <paper title>"
+cp content/templates/paper_template.md content/papers/2026/<slug>.md
+$EDITOR content/papers/2026/<slug>.md
+git add content/papers/2026/<slug>.md
+git commit -m "add: <論文タイトル>"
 git push
 ```
 
-Pushing to `main` triggers the GitHub Actions workflow in `.github/workflows/deploy.yml`, which rebuilds the site and deploys to GitHub Pages.
+`main` への push で `.github/workflows/deploy.yml` が走り、GitHub Pages にデプロイされる。
 
-## Conventions
+## ノート記述ルール
 
-- Wikilinks: `[[papers/2026/slug]]`, `[[topics/llm-inference-efficiency]]`
-- Tags in frontmatter: `tags: [llm, vlm, mlops, rl, ...]`
-- Status in frontmatter: `status: reading | read | skim`
+- Wikilink: `[[papers/2026/slug]]`、`[[topics/llm-inference-efficiency]]`
+- `tags:` には `llm` / `vlm` / `mlops` / `rl` などを英語スラッグで。
+- `status:` は `reading` | `read` | `skim` のいずれか。
+- スラッグと frontmatter キーは英語（URL・プラグイン都合）。本文は日本語で OK。
 
-## License
+## ライセンス
 
-Notes: CC BY 4.0. Quartz itself: MIT (see `LICENSE.txt`).
+ノート本文: CC BY 4.0。Quartz 本体: MIT（`LICENSE.txt`）。

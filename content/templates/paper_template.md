@@ -1,10 +1,10 @@
 ---
-title: "<Paper Title>"
-authors: "<Author1, Author2, ...>"
-venue: "<NeurIPS 2024 / arXiv:2401.XXXXX>"
+title: "<論文タイトル>"
+authors: "<著者1, 著者2, ...>"
+venue: "<NeurIPS 2024 / arXiv:2401.XXXXX など>"
 year: 2024
-url: "<arXiv / OpenReview URL>"
-code: "<GitHub URL, if any>"
+url: "<arXiv / OpenReview の URL>"
+code: "<GitHub URL（公開されていれば）>"
 read_date: 2026-01-01
 status: reading  # reading | read | skim
 tags:
@@ -14,38 +14,38 @@ tags:
 
 ## TL;DR
 
-> One or two sentences. What is the paper, what problem does it solve, why does it matter?
+> 1〜2 文で要約。何の論文で、何を解き、なぜ重要か。
 
-## Problem
+## 背景・問題設定
 
-- What is the gap in prior work?
-- Why is this hard?
+- 既存研究のどこにギャップがあるか。
+- なぜこの問題は難しいのか。
 
-## Method
+## 手法
 
-- Core idea in one paragraph.
-- Architecture / algorithm (diagrams welcome — drop images in `content/assets/`).
-- Key hyperparameters or design choices.
+- コアアイデアを 1 段落で。
+- アーキテクチャ／アルゴリズム（図があれば `content/assets/` に画像を置いて貼る）。
+- 重要なハイパーパラメータや設計判断。
 
-## Experiments
+## 実験
 
-- Datasets & baselines.
-- Main results (tables / numbers worth remembering).
-- Ablations that changed your mind.
+- データセットとベースライン。
+- メイン結果（覚えておく価値のある数値・表）。
+- 効いた ablation、逆に驚いた ablation。
 
-## Strengths
+## 強み
 
-- What is genuinely new or well-executed?
+- 本当に新しい／よく出来ているのはどこか。
 
-## Weaknesses / Open Questions
+## 弱み・未解決の問い
 
-- Unconvincing claims, missing baselines, scope limits.
+- 主張が弱い点、欠けているベースライン、適用範囲の制限。
 
-## Connections
+## 関連研究とのつながり
 
-- Prior work it builds on: [[papers/YYYY/related-paper]]
-- Follow-ups / contemporaneous: [[papers/YYYY/other-paper]]
+- 系譜上の前身: [[papers/YYYY/related-paper]]
+- 同時期・後続: [[papers/YYYY/other-paper]]
 
-## Takeaway for my own work
+## 自分の研究・実装への示唆
 
-- Ideas I want to try, reproductions, or pitfalls to avoid.
+- 試したいアイデア、再現したい結果、踏みたくない地雷。

@@ -1,7 +1,9 @@
 ---
-title: Papers
+title: 論文ノート
 ---
 
-One note per paper, grouped by year. Use the tag pages or the graph view to browse cross-cuts (e.g. `#llm`, `#vlm`, `#mlops`).
+1 論文 1 ノート。`content/papers/YYYY/<slug>.md` の形式で年別に置いている。
 
-New notes go under `content/papers/YYYY/<slug>.md`. Copy [[templates/paper_template]] to start.
+新規ノートを作るときは [[templates/paper_template|論文ノート用テンプレート]] をコピーして書き始める。
+
+タグや横断的な読み方は [[topics/|トピック別まとめ]] と、左右のサイドバー（グラフビュー・タグ一覧）を活用する。

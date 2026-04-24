@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
-    locale: "en-US",
+    locale: "ja-JP",
     baseUrl: "yamadan96.github.io/paper-survey",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -21,8 +21,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Noto Sans JP",
+        body: "Noto Sans JP",
         code: "IBM Plex Mono",
       },
       colors: {
