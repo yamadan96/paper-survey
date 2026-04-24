@@ -94,5 +94,5 @@ tags:
 
 → 次に読む:
 - [[papers/2024/dinov2-registers]] (未作成) — artefact 解消版。
-- [[papers/2021/lora]] (未作成) — adapter 本体の再確認。
+- [[papers/2021/lora]] — PEFT 本体の再確認。DINOv2 backbone と組んで少数データ適合に使う。
 - [[papers/2022/ibot]] (未作成) — iBOT 単体の挙動理解。
