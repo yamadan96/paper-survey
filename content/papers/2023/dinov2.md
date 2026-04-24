@@ -71,6 +71,7 @@ tags:
 ## 関連研究とのつながり
 
 - 直接の前身:
+  - [[papers/2020/vit]] — アーキテクチャの土台。DINOv2 は ViT-S/B/L/g を backbone に使う。
   - DINO (Caron et al., 2021) — student-teacher / self-distillation の original。
   - iBOT (Zhou et al., 2022) — masked image modeling を DINO に統合。
 - 同時期・比較対象:
