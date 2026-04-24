@@ -90,7 +90,7 @@ tags:
 - 同時期・発展:
   - LoftQ (2023) — 量子化誤差を LoRA の初期化で相殺する。
   - QA-LoRA (2023) — 推論時マージまで考えた設計。
-  - DoRA (2024) / LoRA+ — LoRA 側の改良。QLoRA と直交して組める。
+  - [[papers/2024/dora]] / LoRA+ — LoRA 側の改良。QLoRA と直交して組める。QDoRA が有望。
   - HQQ — 較正データ不要の高速量子化。
 - Vision 応用:
   - [[papers/2023/dinov2]] — DINOv2-ViT-L/g + QLoRA で研究室 GPU 上での domain adaptation が現実的になる。
@@ -115,6 +115,6 @@ tags:
    - 本番デプロイを視野に入れるなら、`4bit base + LoRA` のまま serving するのか、FP16 にマージして serving するのかを早めに決める。後者は `merge_and_unload()` 後に再量子化する手順が必要。
 
 → 次に読む:
-- [[papers/2024/dora]] — LoRA 側の改良。QLoRA と併用可能。
+- [[papers/2024/dora]] — LoRA 側の改良。QLoRA と併用可能（読了）。
 - LoftQ — 量子化誤差の LoRA 初期化補正。QLoRA の弱点を直接突く。
 - AWQ — 活性化統計ベースの量子化。推論 serving 視点で。

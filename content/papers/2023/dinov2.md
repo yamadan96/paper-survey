@@ -78,6 +78,7 @@ tags:
   - MAE (He et al., 2022) — reconstruction 型 SSL。
 - 後続:
   - DINOv2 + Registers (Darcet et al., 2024) — attention の artefact を解消。
+  - [[papers/2024/dora]] — DINOv2 backbone と組むと低 rank で有利。DoRA のほうがタスクによっては LoRA を上回る。
   - SAM 2, Depth Anything 系は DINOv2 を backbone として活用。
 
 ## 自分の研究・実装への示唆

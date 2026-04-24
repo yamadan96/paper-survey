@@ -96,7 +96,7 @@ $$
   - BitFit (Zaken et al., 2021) — bias のみ学習。ミニマル PEFT。
 - 同時期・発展:
   - [[papers/2023/qlora]] — 4bit 量子化 base + LoRA。単一 GPU で 65B FT。
-  - [[papers/2024/dora]] (未作成) — 重みを magnitude × direction に分解して LoRA より表現力を拡張。
+  - [[papers/2024/dora]] — 重みを magnitude × direction に分解して LoRA より表現力を拡張。
   - VeRA, LoRA+, LongLoRA など。
 - Vision / 基盤モデル応用:
   - [[papers/2023/dinov2]] — DINOv2 backbone + LoRA で凍結特徴に低ランク適応するのが近年の定石。
@@ -122,5 +122,5 @@ $$
 
 → 次に読む:
 - [[papers/2023/qlora]] — 量子化との組み合わせ。研究室 GPU 制約で必須級（読了）。
-- [[papers/2024/dora]] — LoRA の表現力拡張。rank を絞りたい場面で。
+- [[papers/2024/dora]] — LoRA の表現力拡張。rank を絞りたい場面で（読了）。
 - [[papers/2019/adapters]] — Adapter 本体。LoRA との設計思想比較。
