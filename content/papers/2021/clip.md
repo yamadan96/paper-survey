@@ -94,7 +94,7 @@ $$
   - [[papers/2020/vit]] — image encoder 候補の一つ（ViT-B/16, ViT-L/14）。
   - VirTex (Desai & Johnson, 2020) — small-scale image-text contrastive。CLIP の直接の前身。
   - ConVIRT (Zhang et al., 2020) — 医療画像での image-text 対照。
-  - SimCLR (Chen et al., 2020) — 対照学習の方法論的ベース。
+  - [[papers/2020/simclr]] — 対照学習の方法論的ベース。NT-Xent loss と augmentation 中心の SSL を確立。CLIP は image-image 対照を image-text 対照に拡張した位置づけ。
 - 同時期・再現:
   - ALIGN (Jia et al., 2021) — Google 版 CLIP。ノイジーな 1.8B ペアで学習。
   - OpenCLIP / LAION — 再現可能版。研究コミュニティのデファクトに。

@@ -22,7 +22,7 @@ tags:
 
 - BERT が NLP で完全勝利した裏には「**入力の一部をマスクして予測**」という単純な self-supervised 目的があった。
 - 画像側で同じことを試みる先行研究（iGPT, BEiT）はあったが、**BERT ほどシンプルに効く手法が確立していなかった**。
-- 2020 年前後の vision SSL は contrastive（SimCLR, MoCo, DINO）が主流で、**データ拡張と負例設計**の工夫勝負だった。
+- 2020 年前後の vision SSL は contrastive（[[papers/2020/simclr|SimCLR]], MoCo, DINO）が主流で、**データ拡張と負例設計**の工夫勝負だった。
 - 本論文の問い: 「**画像版 BERT を素直に組んだら効かないのはなぜか？ そして、何を変えれば効くか？**」
 
 ## 手法
