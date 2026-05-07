@@ -72,6 +72,7 @@ tags:
 
 - 直接の前身:
   - [[papers/2020/vit]] — アーキテクチャの土台。DINOv2 は ViT-S/B/L/g を backbone に使う。
+  - [[papers/2020/simclr]] — 対照学習系 SSL の方法論的祖。DINO の student-teacher 損失も augmentation 不変性の系譜上にある。
   - DINO (Caron et al., 2021) — student-teacher / self-distillation の original。
   - iBOT (Zhou et al., 2022) — masked image modeling を DINO に統合。
 - 同時期・比較対象:
